@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games for Learning</title>
+    <meta http-equiv="http://www.gamesforlearning.com" >
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <script language="javascript" src="script.js"></script>
+</head>
+<body>
+    <style> body{
+        background-color: antiquewhite;
+    }
+
+    /* Basic Reset */
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background and Font */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e5;
+            color: #333;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 200px;
+            background-color: #555;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #f8f1e5;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .sidebar a:hover {
+            background-color: #777;
+        }
+
+        /* Main Content Styling */
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Product and Service Cards */
+.product, .service {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.product h3, .service h3 {
+    margin-top: 0;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* Image Styling */
+.product-image {
+    width: 100%;
+    max-width: 200px; /* Adjusts the maximum width */
+    height: auto;
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between image and text */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Light shadow for depth */
+}
+
+/* Card Styling with Images */
+.product, .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center; /* Center-aligns text for better flow with the image */
+}
+
+/* Responsive Image Styling */
+@media (max-width: 768px) {
+    .product-image {
+        max-width: 150px; /* Smaller size on mobile */
+    }
+}
+    </style>
+
+
+    <!-- Header Section -->
+    <header>
+
+         <!-- Navbar -->
+    <div class="navbar">
+        <!--Sidebar-->
+        <div class="sidebar">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="P & S.html" class="nav-link">Products & Services</a></li> 
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+         
+        </div>
+
+        <!--Main Content-->
+    <div class="content">
+        <div class="header">
+          <img src="_images/Untitled design (1).jpg" alt="Games For Learning Logo">
+          <h1>Games for Learning</h1>
+          <p>Play. Learn. Grow</p>
+        </div>
+
+        <h1>Discover Our Range of Products and Services</h1>
+        <p>At GfL, we believe in the power of digital education to transform learning experiences.</p>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Our Products</h2>
+        
+        <!-- E-Learning Materials -->
+        <div class="product">
+            <h3>E-Learning Materials</h3>
+            <img src="_images/e-learning-teaching-materials-i.webp" alt="E-Learning Materials">
+            <p>Comprehensive e-learning modules covering Math, Science, English, and more, with interactive lessons, quizzes, and progress tracking. Available on PC, tablets, and smartphones.</p>
+            <button onclick="openModal('modal-elearning')">Learn More</button>
+        </div>
+
+        <!-- E-Books -->
+        <div class="product">
+            <h3>E-Books</h3>
+            <img src="_images/ebook4.jpg" alt="E-Books">
+            <p>A library of educational e-books with interactive features like quizzes, embedded videos, and offline access. Ideal for curriculum-based learning and additional reading resources.</p>
+            <button onclick="openModal('modal-ebooks')">Learn More</button>
+            
+            </div>  
+            </div>
+
+        <!-- Online Educational Games -->
+        <div class="product">
+            <h3>Online Educational Games</h3>
+            <img src="_images/educational-games-for-kids-1586987853.avif" alt="Educational Games">
+            <p>Games designed to make learning enjoyable while improving skills such as mathematics, language, and coding. Engaging games designed for skills improvement in areas like mathematics, language, and coding, with attractive graphics, rewards, and leaderboards to motivate students.</p>
+            <button onclick="openModal('modal-games')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <!-- Network and IT Support -->
+        <div class="service">
+            <h3>Network and IT Support</h3>
+            <img src="_images/portrait-two-people-server-room-using-laptop-setting-up-data-security-network-1-1024x686 (1).jpg" alt="Network & I.T Support">
+            <p>24/7 Technical Assistance to ensure uninterrupted learning experiences. 24/7 technical assistance and remote management to ensure uninterrupted learning experiences. Ideal for schools and institutions requiring reliable network infrastructure.</p>
+            <button onclick="openModal('modal-support')">Learn More</button>
+        </div>
+
+        <!-- Custom Content Development -->
+        <div class="service">
+            <h3>Custom Content Development</h3>
+            <img src="_images/stockphoto-1279738776-612x612.jpg" alt="Content Development">
+            <p>We collaborate with educational institutions to create custom e-learning materials and games. Tailored e-learning materials and games that fit specific curricula and teaching methods. Collaborate with us to create content that aligns with your educational goals.</p>
+            <button onclick="openModal('modal-content')">Learn More</button>
+        </div>
+
+        <!-- Consultation Services -->
+        <div class="service">
+            <h3>Consultation Services</h3>
+            <img src="_images/finding-a-tutor-1080x675.webp" alt="Consultation">
+            <p>Expert advice on implementing digital learning tools effectively. Expert advice on implementing digital learning tools effectively. Our consultants help plan network scalability and guide on integrating technology in education.</p>
+            <button onclick="openModal('modal-consultation')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Modals for Detailed Views -->
+    <div class="modal" id="modal-elearning">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-elearning')">&times;</span>
+            <h3>E-Learning Materials</h3>
+            <p>Interactive lessons, quizzes, and progress tracking for various subjects, accessible on multiple devices.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-ebooks">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-ebooks')">&times;</span>
+            <h3>E-Books</h3>
+            <p>Interactive e-books with quizzes, embedded videos, and exercises, suitable for flexible learning.</p>
+        </div>
+    </div>
+</body>
+</html>

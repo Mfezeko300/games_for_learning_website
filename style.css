@@ -1,0 +1,448 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p1 {
+    text-align: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    padding: 14px 20px;
+    color: #f8f1e5;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #777;
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f1e5;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Key Concepts Styling */
+.key-concepts {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.key-concepts h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.key-concepts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    font-size: 1em;
+    color: #555;
+}
+
+.key-concepts li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.key-concepts li::before {
+    content: "✓";
+    color: #4caf50;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+}
+
+/* Contact Page Styling */
+.contact-page {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-page h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Contact Information Styling */
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #555;
+    color: #f8f1e5;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+/*Styling Products and Services*/
+     /* Basic Reset */
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    /* Title and Introduction */
+    .page-title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
+    
+    .intro-text {
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        color: #555;
+    }
+    
+    /* Section Titles */
+    .section-title {
+        font-size: 1.8em;
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ffd700;
+        padding-bottom: 5px;
+    }
+    
+    /* Product and Service Styles */
+    .section {
+        margin-bottom: 30px;
+    }
+    
+    .product, .service {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product h3, .service h3 {
+        font-size: 1.4em;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+    
+    .product p, .service p {
+        margin-bottom: 8px;
+    }
+    
+    /* Call-to-Action Buttons */
+    .cta-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #2c3e50;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .button:hover {
+        background-color: #ffd700;
+    }
+    
+    /* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.4s;
+}
+
+/* Close Button */
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+/* Keyframe Animation for Modal */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Testimonials Section Styling */
+.testimonials-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.testimonials-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap scrolling for a smoother carousel effect */
+    padding-bottom: 10px;
+}
+
+.testimonial-card {
+    flex: 0 0 300px; /* Set width of each card */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    scroll-snap-align: center;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Carousel Button Styling */
+.carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+}
+
+#faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    background: #f9f9f9;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.faq-answer {
+    display: none; /* Hidden by default */
+    padding: 10px;
+    background: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+}
+
+#filter-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#filter-options input,
+#filter-options select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
